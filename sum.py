@@ -3,12 +3,12 @@ negative_sum = 0
 zero_count = 0
 
 for i in range(1, 11):
-    number = int(input(f"Enter number {i}: "))
+    num = int(input(f"Enter number {i}: "))
 
-    if number > 0:
-        positive_sum += number
-    elif number < 0:
-        negative_sum += number
+    if num > 0:
+        positive_sum += num
+    elif num < 0:
+        negative_sum += num
     else:
         print("Zero entered")
         zero_count += 1
